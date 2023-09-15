@@ -3,6 +3,7 @@
 	"type": "typo3-cms-extension",
 	"license": "GPL-2.0",
 	"description": "Double Opt-In for the TYPO3 CMS Form Framework",
+  "version": "1.0.0",
 	"authors": [
     {
       "name": "Lina Wolf",
@@ -17,9 +18,9 @@
 	"require": {
 		"ext-json": "*",
     "ext-openssl": "*",
-		"typo3/cms-core": "^11.5",
-    "typo3/cms-form": "^11.5",
-		"typo3/cms-scheduler": "^11.5"
+		"typo3/cms-core": "^12.4",
+    "typo3/cms-form": "^12.4",
+		"typo3/cms-scheduler": "^12.4"
   },
 	"require-dev": {
 		"codeception/codeception": "^4.1",
@@ -28,9 +29,9 @@
 		"codeception/module-webdriver": "^1.1",
 		"phpstan/phpstan": "^1.8.2",
 		"ssch/typo3-rector": "^1.2",
-		"typo3/cms-core": "11.*.*@dev",
-		"typo3/cms-frontend": "11.*.*@dev",
-		"typo3/cms-install": "11.*.*@dev",
+		"typo3/cms-core": "^12.4",
+		"typo3/cms-frontend": "^12.4",
+		"typo3/cms-install": "^12.4",
 		"typo3/coding-standards": "^0.5.0",
 		"typo3/tailor": "^1.2",
 		"typo3/testing-framework": "^6.14.0"
