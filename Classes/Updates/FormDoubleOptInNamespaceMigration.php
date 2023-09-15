@@ -9,6 +9,7 @@ use TYPO3\CMS\Install\Updates\Confirmation;
 use TYPO3\CMS\Install\Updates\DatabaseUpdatedPrerequisite;
 use TYPO3\CMS\Install\Updates\UpgradeWizardInterface;
 
+#[UpgradeWizard('FormDoubleOptInNamespaceMigrationMigration')]
 class FormDoubleOptInNamespaceMigration implements UpgradeWizardInterface, ConfirmableInterface
 {
     /**
