@@ -12,7 +12,6 @@ call_user_func(
         );
 
         ExtensionManagementUtility::addStaticFile($extKey, 'Configuration/TypoScript', 'FormDoubleOptIn');
-        ExtensionManagementUtility::allowTableOnStandardPages('tx_formdoubleoptin_domain_model_optin');
     },
     'form_double_opt_in'
 );
