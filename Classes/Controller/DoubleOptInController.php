@@ -58,7 +58,7 @@ class DoubleOptInController extends ActionController
 
                 if (!$isAlreadyValidated) {
                     $success = true;
-                    if ($this->settings['deleteOptInRecordsAfterOptIn']) {
+                    if ($this->settings['deleteOptInRecordsAfterOptIn'] ?? false) {
                         $this->optInRepository->remove($optIn);
                     } else {
                         // Set as validated in the db
